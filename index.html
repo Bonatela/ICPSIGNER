@@ -146,6 +146,7 @@
     </div>
 
 
+
 <!--parceiros-->
     <div class="pt-5" id="investors-section">
       <div class="container">
@@ -520,59 +521,133 @@
     </div>
 
 
-    <div class="site-section bg-light" id="contact-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center mb-5">
-            <div class="block-heading-1">
-              <span>Entre em Contato</span>
-              <h2>Contato</h2>
+
+
+<!--Email-->
+    <div class="container">
+            <div class="row">
+
+                <div class="container" align="center">
+                <h2>Entre Em Contato Agora Mesmo <span class="fa fa-commenting-o"></span> </h2>
+                <br>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column address-wrap">
+
+                    <div class="single-contact-address d-flex flex-row">
+
+                        <div class="detail">
+
+                            <h4>Canoas, RS</h4>
+                            <p><span class="fa fa-map-marker"></span> Rua XV de Janeiro, n.373, Sala 804</p>
+                            <br>
+                            <h4>Porto Alegre, RS</h4>
+                            <p><span class="fa fa-map-marker"></span> AV. Mauá, n.887, Sala 501</p>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="single-contact-address d-flex flex-row">
+
+
+                        <div class="contact-details">
+
+                            <br>
+                            <h4> <span class="fa fa-phone"></span> (51) 3031 - 4832</h4>
+                            <h4> <span class="fa fa-phone"></span> (51) 3110  - 7879</h4>
+
+                            <br>
+                            <p> <span class="fa fa-clock-o"></span> segunda à sexta-feira das 8H as 18H</p>
+                            <br>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="single-contact-address d-flex flex-row">
+                        <div class="contact-details">
+                            <h4><span class="fa fa-paper-plane-o"></span> sac@certificadorasul.com.br</h4>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-lg-8">
+
+
+
+
+                    <form class="form-area" class="contact-form text-right" id="myForm" action="php/email/contato_email.php" method="post" >
+
+                        <div class="row">
+
+
+
+
+                            <div class="col-lg-8 form-group">
+
+                                <div class="space-50"></div>
+
+                                <label>Nome</label>
+                                <input name="name" id="nome" placeholder="Nome" class="form-control" type="text">
+                                <br>
+
+                                <label>E-mail</label>
+                                <input name="email" id="email" placeholder="email" class="form-control" type="text">
+                                <br>
+                                
+                                <label>Telefone</label>
+                                 <input name="telefone" id="telefone"  pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}"  class="form-control" placeholder="(00) 00000-0000" type="text ">
+                                <br>
+
+                                <label>Assunto</label>
+                                <input name="assunto" id="assunto" placeholder="Assunto" class="form-control"  type="text">
+                            
+                            </div>
+
+
+
+                            <div class="col-lg-6 form-group">
+                                
+                                <br><br>
+                                <label>Mensagem</label>
+                                
+                                <textarea class="common-textarea form-control" name="mensagem" placeholder="Mensagem"></textarea>
+
+                                <div class="col-lg">
+                                        
+                                    <br>
+
+                                        <button  class="btn btn-primary" style="float: right;">
+                                           Enviar <span class="fa fa-envelope-o" style="color:#fff"></span>
+                                        </button>
+                                </div>
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+                    </form>
+
+
+
+
+
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 mb-5">
-            
-            
-            <form action="#" method="post">
-              <div class="form-group row">
-                <div class="col-md-6 mb-4 mb-lg-0">
-                  <input type="text" class="form-control" placeholder="Nome">
-                </div>
-                <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="Sobrenome">
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <input type="text" class="form-control" placeholder="Email">
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <textarea name="" id="" class="form-control" placeholder="Escreva sua mensagem." cols="30" rows="10"></textarea>
-                </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-md-6 ml-auto">
-                  <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Enviar mensagem ">
-                </div>
-              </div>
-            </form>
-
-
-          </div>
-          <div class="col-lg-4 ml-auto">
-            <h2 class="text-black">Para mais detalhes entre em contato <br><a href="tel://13">(51) 3207 - 9999</a> <br><a href="tel://13">(13) 997-551-204</a></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, distinctio! Harum quibusdam nisi, illum nulla aspernatur <a href="#">voluptas nam praesentium</a> aut quidem aperiam, quae non tempora recusandae voluptatibus fugit impedit.</p>
-          </div>
-        </div>
-      </div>
     </div>
-
-
+<!--Email-->
 
 
 
