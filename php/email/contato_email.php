@@ -29,17 +29,17 @@
     $Mailer->Charset = "utf8";
     $Mailer->IsSMTP();
 
-    $Mailer->Host = "certificadorasul.com.br";
+    $Mailer->Host = "icpsigner.com";
 
     $Mailer->SMTPAuth = true;
-    $Mailer->Username = "site@certificadorasul.com.br";
-    $Mailer->Password = "134679";
+    $Mailer->Username = "website@icpsigner.com";
+    $Mailer->Password = "rgk5Fzx9SAN5FCg";
     $Mailer->SMTPSecure = "tls";
     $Mailer->Port = 587;
 
     $Mailer->FromName = "($Nome)";
-    $Mailer->From = "site@certificadorasul.com.br";
-    $Mailer->AddAddress("sac@certificadorasul.com.br","site@certificadorasul.com.br");
+    $Mailer->From = "website@icpsigner.com";
+    $Mailer->AddAddress("contato@icpsigner.com","website@icpsigner.com");
 
     $Mailer->IsHTML(true);
 
@@ -53,266 +53,174 @@
 
 ?>
 
-
-
 <html>
-<head>
-<meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Guilherme Bonato">
+<html lang="pt-br">
+  <head>
+    <title>ICP SGINER</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-        <title>Certificadora Sul</title>
-
-       
-
-        <!-- bootstrap -->
-
-            <!-- font-awesome/4.7.0 -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../../images/favicon.png" />
 
 
-            <!-- Latest compiled and minified CSS -->
-            <link rel="stylesheet" href="../../bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
 
-            <!-- jQuery library -->
-            <script src="../../bootstrap/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-            <!-- Latest compiled JavaScript -->
-            <script src="../../bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../../fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/magnific-popup.css">
+    <link rel="stylesheet" href="../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="../../css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="../../fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="../../css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <div class="site-wrap"  id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+      
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center position-relative">
+          
+            
+            <div class="site-logo">
+              <a href="../../index.html" class="text-black"><span class="text-primary">ICPSGINER</a>
+            </div>
+            
+              <nav class="site-navigation text-center ml-auto" role="navigation">
+
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                  <li><a href="../../index.html" class="nav-link">Volta</a></li>
+                  <li><a href="#investors-section" class="nav-link">Partners</a></li>
+                  <li><a href="#about-section" class="nav-link">Sobre</a></li>
+                  <li><a href="#services-section" class="nav-link">O que fazemos</a></li>
+                  <li><a href="#press-section" class="nav-link">Press</a></li>
+                  
+                  
+                  <li><a href="#blog-section" class="nav-link">Blog</a></li>
+                  <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                </ul>
+              </nav>
+          
             
 
-            <!--Normalize V8-->
-            <script src="../../bootstrap/v8.js"></script>
-            
-        <!-- bootstrap -->
+          <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
 
-
-        <!--header icon CSS -->
-        <link rel="icon" href="../../logos/favicon.png">
-
-
-        <!--CSS -->
-        <link rel="stylesheet" href="../return/css/css.css">
-
-
-   
-
-   
+        </div>
+      </div>
+      
+    </header>
+    
 
 
 
-</head>
-<body>
 
 
-        <!--menu-->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="menus">
-
-            <div class="container-fluid">
-                <div class="navbar-header">
 
 
-                    <span  style="color:#fff;" class="navbar-toggle fa fa-navicon" data-toggle="collapse" data-target="#links-menu"></span>
 
-                    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-8">
+                <h2 class="footer-heading mb-4">Sobre</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+              </div>
+              <div class="col-md-4 ml-auto">
+                <h2 class="footer-heading mb-4">Features</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Press Releases</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-4 ml-auto">
 
-                    <a class="navbar-brand" href="../../index.html" > <img src="../../logos/logotipo.png" id="logotipo-topo" alt="logo CCS"> </a>
-
+            <div class="mb-5">
+              <div class="mb-5">
+                <h2 class="footer-heading mb-4">Some Paragraph</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nostrum libero iusto dolorum vero atque aliquid.</p>
+              </div>
+              <h2 class="footer-heading mb-4">Subscribe to Newsletter</h2>
+              <form action="#" method="post">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary text-white" type="button" id="button-addon2">Subscribe</button>
+                  </div>
                 </div>
-
-                <nav id="links-menu" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="fa fa-address-card-o"></span> Certificados <span class="caret"></span></a>
-                            <ul class="dropdown-menu" id="segundo-menu">
-
-                        
-                                <li><a href="../../produtos/ecpf/ecpf.html"><span class="fa fa-drivers-license"></span>&nbsp; e-CPF</a></li>
-                                <li><a href="../../produtos/epf/epf.html"><span class="fa fa-id-badge"></span>&nbsp;&nbsp;  e-PF</a></li>
-                                <li><a href="../../produtos/ecnpj/ecnpj.html"><span class="fa fa-briefcase"></span>&nbsp; e-CNPJ</a></li>
-                                <li><a href="../../produtos/nfe/nfe.html"><span class="fa fa-barcode"></span>&nbsp; NF-e</a></li>
-                                <li><a href="../../produtos/cte/cte.html"><span class="fa fa-truck"></span>&nbsp; CT-e</a></li>
+              </div>
 
 
-
-                                <li><a href="../../produtos/bancario/bancario.html"><span class="fa fa-bank"></span>&nbsp; CIP</a></li>
-                                <li><a href="../../produtos/oab/oab.html"><span class="fa fa-legal"></span> OAB</a></li>
-                                <li><a href="../../produtos/emedico/emedico.html"><span class="fa fa-stethoscope"></span>&nbsp; e-Medico</a></li>
-                                <li><a href="../../produtos/ssl/ssl.html"><span class="fa fa-shield"></span>&nbsp; SSL</a></li>
-                                <li><a href="../../produtos/mobile/mobile.html"><span class="fa fa-tablet"></span>&nbsp; Mobile</a></li>
-                                <li><a href="../../produtos/conectividade/conectividade.html"><span class="fa fa-handshake-o"></span>&nbsp; Conectividade</a></li>
-                                <li><a href="../../produtos/promocional/promo.html"><span class="fa fa-cart-arrow-down"></span>&nbsp; Promocional</a></li>
-
-
-                            </ul>
-                        </li>
-
-
-
-
-                        <li><a href="../../produtos/bancario/bancario.html"><span class="fa fa-bank"></span> CIP</a></li>
-                        <li><a href="../../produtos/ssl/ssl.html"><span class="fa fa-shield"></span> SSL</a></li>
-                        <li><a href="../../produtos/mobile/mobile.html"><span class="fa fa-tablet"></span> Mobile</a></li>
-                        <li><a class="scroll" href="../../map/mail.html"><span class="fa fa-map-marker"></span> Pontos</a></li>
-                        <li><a href="../../download/download.html"> <span class="fa fa-download"></span> Download</a></li>
-
-
-
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> <span class="fa fa-wechat"></span> Sobre <span class="caret"></span></a>
-                            <ul class="dropdown-menu" id="terceiro-menu">
-                                <li><a href="../../faq/faq.html"><span class="fa fa-question-circle"></span> FAQ</a></li>
-                                <li><a href="../../map/mail.html"><span class="fa fa-envelope"></span> Email</a></li>
-                                <li><a href="../../parceiro/its/its.html"><span class="fa fa-map-signs"></span> ITS</a></li>
-                                <li><a href="../../renovacao/renovacao.html"><span class="fa fa-refresh"></span> Renovação</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a class="scroll" href="../../parceiro/parceiro.html"><span class="fa fa-slideshare"></span> Parceiro</a></li>
-                    </ul>
-
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="https://www.facebook.com/CertificadoraSul/"><span style="color:#fff;" class="fa fa-facebook"></span></a></li>
-                        <li><a href="https://www.instagram.com/certificadorasul/?hl=pt-br"><span style="color:#fff;" class="fa fa-instagram"></span></a></li>
-                        <li><a href="https://twitter.com/CompanhiaSul"><span style="color:#fff;" class="fa fa-twitter"></span></a></li>
-                        <li><a href="../../parceiro/cadastro/cadastro.html"><span class="fa fa-user-o"></span> Cadastrar</a></li>
-                        <li><a href="../../parceiro/login/login.html"><span class="fa fa-users"></span> Logar</a></li>
-                    </ul>
-
-
-
-                </nav>
-            </div>
-
-        </nav>
-
-
-
-
-
-
-        <div class="space-80"></div>
-
-
-
-        <div class="container" align="center">
-
-            <div class="space-80"></div>
-            <h2>Mensagem enviada com sucesso!</h2>
-
-
-            <div class="btn-group">
-                <button type="button" class="button"><span style="color:#fff"><a href="../../index.html" style="color: whitesmoke">Voltar</a> </span></button>
-            </div>
-
+              <h2 class="footer-heading mb-4">Follow</h2>
+                <a href="#about-section" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <!-- <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>-->
+                <a href="https://www.linkedin.com/company/icp-signer" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </form>
+          </div>
         </div>
-
-
-
-
-        <div class="space-80"></div>
-
-
-
-
-
-        <hr>
-        <!-- Links Footer -->
-        <div class="jumbotron" id="baixo">
-            <div class="container" align="left">
-
-
-                <div class="container">
-                    <div class="row">
-
-
-
-                        <div class="col-sm-4" id="txt-footer1">
-                            <h5 style="color: #3b3b3b">Links Úteis</h5>
-
-                            <div class="container" align="left">
-                                <p><a href="https://www.validcertificadora.com.br/Identificacao.aspx/005370">Meus Pedidos</a></p>
-                                <p><a href="http://www.validcertificadora.com.br/cancelamento/005370">Sobre Reembolso</a></p>
-                                <p><a href="http://www.validcertificadora.com.br/cancelamento/005370">Sobre 2ª via NFE</a></p>
-                            </div>
-
-                        </div>
-
-
-                        <div class="col-sm-4" id="txt-footer2">
-                            <h5 style="color: #3b3b3b"> Veja Também </h5>
-
-                            <div class="container" align="left">
-                                <p><a href="http://www.validcertificadora.com.br/Valid-Certificados-Digitais.htm/005370">Certificados Digitais</a></p>
-                                <p><a href="http://www.validcertificadora.com.br/certificados-ssl/005370">Certificados SSL</a></p>
-                                <p><a href="http://www.validcertificadora.com.br/suporte/005370">Instalação e Suporte</a></p>
-                            </div>
-
-                        </div>
-
-                        <div class="col-sm-4" id="txt-footer3">
-
-                            <h5 style="color: #3b3b3b">Clique VALID e pronto!</h5>
-
-                            <div class="container" align="left">
-
-                                <p>
-                                    VALID Certificadora Digital Ltda. <br>Uma empresa do Grupo VALID S/A <br>
-                                </p>
-
-                                <p>
-                                    R. 15 de Janeiro 373 – 8º Andar<br>Centro Canoas - RS – CEP: 92.010-300
-                                </p>
-
-                                <p><span style="color:#014f5b" class="fa fa-phone "></span> <a href="tel:5130314832"> 3031 - 4832</a>
-
-                                    &nbsp;
-                                    <a href="https://www.facebook.com/CertificadoraSul/" > <span style="color:#014f5b" class="fa fa-facebook-official fa-2x"></span></a>
-                                    &nbsp;
-                                    <a href="https://www.instagram.com/certificadorasul/?hl=pt-br" > <span style="color:#014f5b" class="fa fa-instagram fa-2x"></span></a>
-                                    &nbsp;
-                                    <a href="https://twitter.com/CompanhiaSul" > <span style="color:#014f5b" class="fa fa-twitter fa-2x"></span></a></p>
-
-                            </div>
-                            <br><br><br>
-                        </div>
-
-
-
-
-                        <div class="container-fluid" align="center" id="img-footer">
-
-                            <img src="../../logos/ccs.png" id="ccs">
-                            <img src="../../logos/iti.png" id="iti">
-                            <img src="../../logos/visa.jpg" id="visa">
-                            <img src="../../logos/boleto.jpg" id="boleto">
-                            <img src="../../logos/seg.png" id="seg">
-                        </div>
-
-
-                    </div><!--row-->
-                </div> <!--container-->
-
-
-            </div> <!--container-->
-        </div><!--jumbo-->
-
-
-
-        <div class="jumbotron-fluid text-center" id="final">
-            <p>
-                <br>
-                © 2018 Companhia Certificadora Sul - Todos os direitos reservados
-            </p>
-
-
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with ICP SGINER</a></p>
+            </div>
+          </div>
+          
         </div>
-        <!-- Links Footer -->
+      </div>
+    </footer>
 
+  </div>
 
+  <script src="../../js/jquery-3.3.1.min.js"></script>
+  <script src="../../js/jquery-ui.js"></script>
+  <script src="../../js/popper.min.js"></script>
+  <script src="../../js/bootstrap.min.js"></script>
+  <script src="../../js/owl.carousel.min.js"></script>
+  <script src="../../js/jquery.magnific-popup.min.js"></script>
+  <script src="../../js/jquery.sticky.js"></script>
+  <script src="../../js/jquery.waypoints.min.js"></script>
+  <script src="../../js/jquery.animateNumber.min.js"></script>
+  <script src="../../js/aos.js"></script>
 
-
-</body>
+  <script src="../../js/main.js"></script>
+    
+  </body>
 </html>
-
